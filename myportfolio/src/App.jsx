@@ -1,4 +1,4 @@
-import {BrowserRouter, createBrowserRouter,
+import {createBrowserRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,} from "react-router-dom"
@@ -8,7 +8,7 @@ import Projects from "./components/projects"
 import Resume from "./components/resume"
 import Contacts from "./components/contacts"
 import Footer from "./components/footer"
-
+import './styles.css';
 function App() {
  const router=createBrowserRouter(
   createRoutesFromElements(
