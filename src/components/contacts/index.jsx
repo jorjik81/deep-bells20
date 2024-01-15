@@ -1,15 +1,15 @@
-import React from 'react';
+
 
 const Contacts = () => {
   return (
     <div>
       <h1>contacts</h1>
       
-            <div class="heading">
+            <div className="heading">
                 <h1>Contact Me</h1>
             </div>
-            <div class="content">
-                <ul class="phone">
+            <div className="content">
+                <ul className="phone">
                     <li>
                         <h5>Phone: <a href="tel:5555555555">(555) 555-5555</a></h5>
                     </li>

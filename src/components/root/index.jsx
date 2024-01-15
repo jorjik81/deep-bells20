@@ -1,10 +1,14 @@
-import React from 'react'
+
+import backgroundImage from "../../assets/images/photo (2).jpg";
 import {Link,Outlet} from "react-router-dom"
 import "./navbar.css"
 const Root = () => {
   return (
     <div>
       <ul className="Nav">
+      <h1><span className="seo">G</span>iorgi
+            <span className="seo">J</span>orjadze
+        </h1>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -20,14 +24,14 @@ const Root = () => {
       </ul>
       
       <Outlet/>
-      <section class="about-section">
-      <img src="./src/assets/images/333.jpg" alt="background image"/>
+      <section className ="about-section">
+      <img src={backgroundImage} alt="background image"/>
       
-          <div className="about-overlay">
-            <div class="heading">
-                <h1>About Me</h1>
+          <div className ="about-overlay">
+            <div className ="heading">
+                <h1>About</h1>
             </div>
-            <div class="content">
+            <div className="content">
                 <p>Giorgi Jorjadze, the accomplished cellist from Georgia who has embraced Brooklyn as his home,
                     is a true renaissance soul. Beyond his musical endeavors as a performer, teacher, and luthier,
                     Giorgi has delved into the world of coding and found a new passion. Embracing the art of programming,

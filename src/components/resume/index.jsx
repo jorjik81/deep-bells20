@@ -29,6 +29,7 @@ const Resume = () => {
         </ul>
       </div>
     </div>
+    
   )
 }
 
